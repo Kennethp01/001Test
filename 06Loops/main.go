@@ -13,7 +13,8 @@ func main() {
 
 	fmt.Println("Printing the alphabets from A to Z using a loop")
 
-	for i := 0; i < 26; i++ {
-		fmt.Print(string(rune(startingASCIINumber+i)), " ")
+	for AZ := 0; AZ < 26; AZ++ {
+		fmt.Print(string(rune(startingASCIINumber+AZ)), " ")
+
 	}
 }

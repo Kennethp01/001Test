@@ -8,4 +8,12 @@ func main() {
 			fmt.Println(i)
 		}
 	}
+
+	var startingASCIINumber int = 65
+
+	fmt.Println("Printing the alphabets from A to Z using a loop")
+
+	for i := 0; i < 26; i++ {
+		fmt.Print(string(rune(startingASCIINumber+i)), " ")
+	}
 }
